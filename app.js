@@ -7,8 +7,11 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function () {
         let inputText = input.value.trim();
         if (inputText === "") return; 
+        
 
         container.innerHTML = "";
+
+        container.innerHTML = "Presiona el cuadro para cambiar de color";
 
         let newBox = document.createElement("div");
         newBox.classList.add("p-3", "bg-light", "text-dark", "border", "rounded", "mb-2");
