@@ -1,6 +1,6 @@
 # js_to_python_practice
 
-Este repositorio contiene una versión en JavaScript y una en Python de un programa que permite al usuario interactuar con una caja de texto, cambiar su color de fondo y texto con cada clic y ver los resultados dinámicamente.
+Este repositorio contiene una versión en JavaScript que se ejecuta con Live Server y una en Python que se ejecuta con Flask de un programa Web que permite al usuario interactuar con una caja de texto, cambiar su color de fondo y texto con cada clic y ver los resultados dinámicamente.
 
 ## Requisitos
 
@@ -26,7 +26,7 @@ Una vez instalada nos dirigimos al archivo **index.html** presionamos click dere
 
 ## Cambiar a la versión de Python
 
-Este programa posee una versión en **Python**, para dirigirme a la misma debo ejecutar el siguiente comando en terminal:
+Este programa posee una versión que corre con **Flask** en **Python**, para dirigirme a la misma debo ejecutar el siguiente comando en terminal:
 
 ```bash
 git checkout python-version
